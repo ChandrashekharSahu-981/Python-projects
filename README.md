@@ -22,7 +22,8 @@ I'm using this repository to practice Python programming concepts and improve my
 12. Higher Lower Game
 13. Coffee Machine
 14. Quiz game
-15. ...
+15. Snake game
+16. ...
 
 ## Technologies:
 
