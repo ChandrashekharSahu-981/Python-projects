@@ -23,7 +23,8 @@ I'm using this repository to practice Python programming concepts and improve my
 13. Coffee Machine
 14. Quiz game
 15. Snake game
-16. ...
+16. Pong game
+17. ...
 
 ## Technologies:
 
