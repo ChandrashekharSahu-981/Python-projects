@@ -1,12 +1,12 @@
-# Python Projects: 
+# Python Projects
 
 This repository contains the Python projects I built while learning Python.
 
-## About:
+## About
 
 I'm using this repository to practice Python programming concepts and improve my problem-solving skills through hands-on projects.
 
-## Projects:
+## Projects
 
 1. Band Name Generator
 2. Tip Calculator
@@ -21,17 +21,21 @@ I'm using this repository to practice Python programming concepts and improve my
 11. Number Guessing Game
 12. Higher Lower Game
 13. Coffee Machine
-14. Quiz game
-15. Snake game
-16. Pong game
-17. ...
+14. Quiz Game
+15. Snake Game
+16. Pong Game
+17. Mail Merge
+18. Indian States Game
+19. More projects coming soon...
 
-## Technologies:
+## Technologies
 
-- Python
-- Git
-- GitHub
+* Python
+* Turtle
+* Pandas
+* Git
+* GitHub
 
-## Progress:
+## Progress
 
 This repository will be updated regularly as I continue learning Python and building new projects.
