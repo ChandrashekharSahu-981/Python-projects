@@ -26,7 +26,8 @@ I'm using this repository to practice Python programming concepts and improve my
 16. Pong Game
 17. Mail Merge
 18. Indian States Game
-19. More projects coming soon...
+19. NATO phonetic conversion
+20. More projects coming soon...
 
 ## Technologies
 
