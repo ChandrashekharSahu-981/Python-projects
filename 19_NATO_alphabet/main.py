@@ -5,11 +5,19 @@ file_path = Path(__file__).parent / "nato_phonetic_alphabet.csv"
 
 file_read = pandas.read_csv(file_path)
 
-#Create a dictionary from the dataframe
 phonetic_dict= {row.letter:row.code for (index, row) in file_read.iterrows()}
+print(phonetic_dict)
 
-#Create a list of the phonetic code words from user input
-word = input("Enter a word: ").upper()
-output_list = [phonetic_dict[letter] for letter in word]
-print(output_list)
+valid = True
+while valid:
+    word = input("Enter a word: ").upper()
+    try:
+        output_list = [phonetic_dict[letter] for letter in word]
+        valid = False
+    except KeyError:
+        print("Sorry, only letters in the name please!")
+        valid = True
+    else:
+         print(output_list)
+   
 
