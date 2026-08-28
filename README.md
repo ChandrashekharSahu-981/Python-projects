@@ -28,7 +28,8 @@ I'm using this repository to practice Python programming concepts and improve my
 18. Indian States Game
 19. NATO phonetic conversion
 20. ISS_overhead
-21. More projects coming soon...
+21. Rain Checker 
+22. More projects coming soon...
 
 ## Technologies
 
