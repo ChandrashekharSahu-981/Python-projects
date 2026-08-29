@@ -29,7 +29,8 @@ I'm using this repository to practice Python programming concepts and improve my
 19. NATO phonetic conversion
 20. ISS_overhead
 21. Rain Checker 
-22. More projects coming soon...
+22. Stock News
+23. More projects coming soon...
 
 ## Technologies
 
