@@ -30,7 +30,8 @@ I'm using this repository to practice Python programming concepts and improve my
 20. ISS_overhead
 21. Rain Checker 
 22. Stock News
-23. More projects coming soon...
+23. Pixela coding tracker
+24. More projects coming soon...
 
 ## Technologies
 
