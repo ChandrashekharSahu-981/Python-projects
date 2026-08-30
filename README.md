@@ -31,7 +31,8 @@ I'm using this repository to practice Python programming concepts and improve my
 21. Rain Checker 
 22. Stock News
 23. Pixela coding tracker
-24. More projects coming soon...
+24. Workout tracker
+25. More projects coming soon...
 
 ## Technologies
 
