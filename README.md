@@ -12,7 +12,7 @@ I'm using this repository to practice Python programming concepts and improve my
 2. Tip Calculator
 3. Treasure Island
 4. Rock Paper Scissors
-5. Password Generator
+5. Password Manager
 6. Hangman
 7. Caesar Cipher
 8. Blind Auction
