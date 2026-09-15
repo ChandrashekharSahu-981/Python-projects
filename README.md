@@ -34,7 +34,8 @@ I'm using this repository to practice Python programming concepts and improve my
 24. Workout tracker
 25. Flight Deal Finder
 26. Periodic Table FlashCard app
-27. More projects coming soon...
+27. 100 Movies Web Scraper
+28. More projects coming soon...
 
 ## Technologies
 
