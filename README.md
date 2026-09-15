@@ -33,7 +33,8 @@ I'm using this repository to practice Python programming concepts and improve my
 23. Pixela coding tracker
 24. Workout tracker
 25. Flight Deal Finder
-26. More projects coming soon...
+26. Periodic Table FlashCard app
+27. More projects coming soon...
 
 ## Technologies
 
