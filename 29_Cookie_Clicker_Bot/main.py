@@ -1,0 +1,81 @@
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.common.exceptions import NoSuchElementException
+from time import sleep, time
+
+# Setup Chrome driver
+chrome_options = webdriver.ChromeOptions()
+chrome_options.add_experimental_option("detach", True)
+driver = webdriver.Chrome(options=chrome_options)
+
+driver.get("https://ozh.github.io/cookieclicker/")
+
+# Wait for page to load just in case
+sleep(3)
+
+# Handle initial popups 
+print("Looking for language selection...")
+try:
+    # Select English language
+    language_button = driver.find_element(by=By.ID, value="langSelect-EN")
+    print("Found language button, clicking...")
+    language_button.click()
+    sleep(3) # more loading
+except NoSuchElementException:
+    print("Language selection not found")
+    
+# Handle cookie consent popup
+try:
+    cookie_consent = driver.find_element( by=By.CLASS_NAME, value="cc_btn_accept_all")
+    cookie_consent.click()
+    print("Cookie consent accepted")
+except NoSuchElementException:
+    print("Cookie consent not found")
+
+# Wait for everything to settle
+sleep(2)
+
+# Find the big cookie to click
+cookie = driver.find_element(by=By.ID, value="bigCookie")
+
+# Set timers
+wait_time = 5
+timeout = time() + wait_time  # Check for purchases every 5 seconds
+five_min = time() + 60 * 5  # Run for 5 minutes
+
+while True:
+    cookie.click()
+    sleep(0.01)
+    # Every 5 seconds, try to buy the most expensive item we can afford
+    if time() > timeout:
+        try:
+            # Find all available products in the store
+            products = driver.find_elements(by=By.CSS_SELECTOR, value="div[id^='product']")
+
+            # Find the most expensive item we can afford
+            best_item = None
+            for product in reversed(products):  # Start from most expensive (bottom of list)
+                # Check if item is available and affordable (enabled class)
+                if "enabled" in product.get_attribute("class"):
+                    best_item = product
+                    break
+
+            # Buy the best item if found
+            if best_item:
+                best_item.click()
+                print(f"Bought item: {best_item.get_attribute('id')}")
+
+        except NoSuchElementException:
+            print("Couldn't find store items")
+
+        # Reset timer
+        timeout = time() + wait_time
+
+    # Stop after 5 minutes
+    if time() > five_min:
+        try:
+            cookies_element = driver.find_element(by=By.ID, value="cookies")
+            print(f"Final result: {cookies_element.text}")
+        except NoSuchElementException:
+            print("Couldn't get final cookie count")
+        break
