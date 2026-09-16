@@ -36,7 +36,8 @@ I'm using this repository to practice Python programming concepts and improve my
 26. Periodic Table FlashCard app
 27. 100 Movies Web Scraper
 28. Amazon Price Tracker
-29. More projects coming soon...
+29. Cookie Clicker Bot
+30. More projects coming soon...
 
 ## Technologies
 
