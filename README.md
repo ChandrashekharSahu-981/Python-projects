@@ -35,7 +35,8 @@ I'm using this repository to practice Python programming concepts and improve my
 25. Flight Deal Finder
 26. Periodic Table FlashCard app
 27. 100 Movies Web Scraper
-28. More projects coming soon...
+28. Amazon Price Tracker
+29. More projects coming soon...
 
 ## Technologies
 
