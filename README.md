@@ -37,7 +37,8 @@ I'm using this repository to practice Python programming concepts and improve my
 27. 100 Movies Web Scraper
 28. Amazon Price Tracker
 29. Cookie Clicker Bot
-30. More projects coming soon...
+30. Gym Routine Selenium Automation
+31. More projects coming soon...
 
 ## Technologies
 
