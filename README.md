@@ -38,7 +38,8 @@ I'm using this repository to practice Python programming concepts and improve my
 28. Amazon Price Tracker
 29. Cookie Clicker Bot
 30. Gym Routine Selenium Automation
-31. More projects coming soon...
+31. Data Entry Automation
+32. More projects coming soon...
 
 ## Technologies
 
